@@ -147,7 +147,7 @@ img {
 }
 
 .logotype {
-  color: #404bbf;
+  color: var(--IRIS, #4d5ae5);
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
