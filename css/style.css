@@ -623,6 +623,30 @@ img {
   padding: 100px 0;
 }
 
+.footer-contant {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-contant-left {
+  margin-right: 120px;
+}
+
+.paragraph-footer {
+  font-weight: 500;
+
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.footer-icon {
+  display: flex;
+  gap: 16px;
+}
+
 .logotype-footer {
   display: inline-block;
 
