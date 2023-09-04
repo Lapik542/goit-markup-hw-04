@@ -417,6 +417,9 @@ img {
   background-color: #ffffff;
   gap: 24px;
   border-radius: 0px 0px 4px 4px;
+
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team {
@@ -475,6 +478,33 @@ img {
   font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
+}
+
+.social-networks-team {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.networks-team {
+  width: 40px;
+  height: 40px;
+}
+
+.links-to-social-networks {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links-to-social-networks:hover,
+.links-to-social-networks:focus {
+  background-color: #404bbf;
 }
 
 /* Our Portfolio */
