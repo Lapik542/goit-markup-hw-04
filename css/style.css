@@ -96,7 +96,7 @@ img {
 }
 
 .menu-link {
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: #2e2f42;
 
   position: relative;
 
@@ -120,7 +120,8 @@ img {
   height: 4px;
 
   border-radius: 2px;
-  background: var(--OCEAN, #404bbf);
+  background: #404bbf;
+  color: #404bbf;
 
   content: '';
 }
