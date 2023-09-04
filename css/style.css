@@ -111,7 +111,7 @@ img {
   padding-bottom: 24px;
 }
 
-.menu-link::after:focus {
+.menu-link::after {
   content: '';
   position: absolute;
   left: 0;
