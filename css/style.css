@@ -105,6 +105,16 @@ img {
   padding-bottom: 24px;
 }
 
+.menu-link::after {
+  display: flex;
+  width: 48px;
+  height: 4px;
+
+  border-radius: 2px;
+  background: var(--OCEAN, #404bbf);
+  content: '';
+}
+
 .menu-link:hover,
 .menu-link:focus {
   color: #404bbf;
@@ -164,65 +174,6 @@ img {
 .menu-address:hover,
 .menu-address:focus {
   color: #404bbf;
-}
-
-/* Peculiarities */
-
-.peculiarities {
-  padding: 120px 156px;
-}
-
-.list-icons {
-  display: flex;
-  gap: 24px;
-}
-
-.sicial-list-icon1 {
-  width: 264px;
-  height: 112px;
-  flex-shrink: 0;
-
-  padding: 24px 100px;
-
-  border-radius: 4px;
-  border: 1px solid var(--LIGHT-SLATE, #8e8f99);
-  background: var(--CLOUD, #f4f4fd);
-}
-
-.sicial-list-icon2 {
-  width: 264px;
-  height: 112px;
-  flex-shrink: 0;
-
-  padding: 24px 100px;
-
-  border-radius: 4px;
-  border: 1px solid var(--LIGHT-SLATE, #8e8f99);
-  background: var(--CLOUD, #f4f4fd);
-}
-
-.sicial-list-icon3 {
-  width: 264px;
-  height: 112px;
-  flex-shrink: 0;
-
-  padding: 24px 100px;
-
-  border-radius: 4px;
-  border: 1px solid var(--LIGHT-SLATE, #8e8f99);
-  background: var(--CLOUD, #f4f4fd);
-}
-
-.sicial-list-icon4 {
-  width: 264px;
-  height: 112px;
-  flex-shrink: 0;
-
-  padding: 24px 100px;
-
-  border-radius: 4px;
-  border: 1px solid var(--LIGHT-SLATE, #8e8f99);
-  background: var(--CLOUD, #f4f4fd);
 }
 
 .header-icons {
@@ -318,6 +269,54 @@ img {
 }
 
 /* TREITS-SECTEON */
+
+.sicial-list-icon1 {
+  width: 264px;
+  height: 112px;
+  flex-shrink: 0;
+
+  padding: 24px 100px;
+
+  border-radius: 4px;
+  border: 1px solid var(--LIGHT-SLATE, #8e8f99);
+  background: var(--CLOUD, #f4f4fd);
+}
+
+.sicial-list-icon2 {
+  width: 264px;
+  height: 112px;
+  flex-shrink: 0;
+
+  padding: 24px 100px;
+
+  border-radius: 4px;
+  border: 1px solid var(--LIGHT-SLATE, #8e8f99);
+  background: var(--CLOUD, #f4f4fd);
+}
+
+.sicial-list-icon3 {
+  width: 264px;
+  height: 112px;
+  flex-shrink: 0;
+
+  padding: 24px 100px;
+
+  border-radius: 4px;
+  border: 1px solid var(--LIGHT-SLATE, #8e8f99);
+  background: var(--CLOUD, #f4f4fd);
+}
+
+.sicial-list-icon4 {
+  width: 264px;
+  height: 112px;
+  flex-shrink: 0;
+
+  padding: 24px 100px;
+
+  border-radius: 4px;
+  border: 1px solid var(--LIGHT-SLATE, #8e8f99);
+  background: var(--CLOUD, #f4f4fd);
+}
 
 .traits {
   padding: 120px 0;
