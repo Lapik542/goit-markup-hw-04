@@ -96,7 +96,7 @@ img {
 }
 
 .menu-link {
-  color: #404bbf;
+  color: #2e2f42;
 
   position: relative;
 
@@ -146,7 +146,7 @@ img {
 }
 
 .logotype {
-  color: var(--IRIS, #4d5ae5);
+  color: #404bbf;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
