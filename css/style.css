@@ -111,7 +111,8 @@ img {
   padding-bottom: 24px;
 }
 
-.menu-link::after {
+.menu-link:hover:focus::after {
+  content: '';
   position: absolute;
   left: 0;
   bottom: -1px;
@@ -121,8 +122,6 @@ img {
 
   border-radius: 2px;
   background: #404bbf;
-
-  content: '';
 }
 
 .menu-link:hover,
