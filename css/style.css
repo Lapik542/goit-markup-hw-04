@@ -597,7 +597,8 @@ img {
   overflow: hidden;
 }
 
-.list-portfolio:hover {
+.list-portfolio:hover .paragraph-portfolio,
+.list-portfolio:focus .paragraph-portfolio {
   transform: translateY(0%);
 }
 
@@ -605,6 +606,8 @@ img {
   position: absolute;
   top: 0;
   font-size: 16px;
+  width: 296px;
+  
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
