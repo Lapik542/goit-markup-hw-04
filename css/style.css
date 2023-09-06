@@ -109,16 +109,16 @@ img {
 
   padding-top: 24px;
   padding-bottom: 24px;
-
-  
 }
 
 .menu-link::after {
   position: absolute;
   left: 0;
   bottom: -1px;
+  display: flex;
   width: 48px;
   height: 4px;
+
   border-radius: 2px;
   background: #404bbf;
 
