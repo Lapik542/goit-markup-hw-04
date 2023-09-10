@@ -773,6 +773,10 @@ img {
   border: none;
   padding: 0;
   line-height: 0;
+  background-color: #E7E9FC;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
 }
 
 .close-btn:hover,
@@ -781,14 +785,16 @@ img {
 }
 
 .close-btn-icon {
+  stroke-width: 1px;
+  stroke: rgba(0, 0, 0, 0.10);
   transition: stroke 250ms ease-out;
 }
 
-.close-btn-icon {
-  fill: var(--CORNFLOWER, #e7e9fc);
-  stroke-width: 1px;
-  stroke: rgba(0, 0, 0, 0.1);
+.close-btn:active {
+  background-color: #404bbf;
+  fill: var(--OCEAN, #ffffff);
 }
+
 
 .modal-text {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -871,4 +877,26 @@ img {
   border: 1px solid var(--IRIS, #4d5ae5);
   outline: transparent;
 }
+
+.review-form-own-checkbox {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #2E2F4266;
+  border-radius: 2px;
+  cursor: pointer;
+  fill: transparent;
+}
+
+.review-form-checkbox:checked + .review-form-checkbox-label > .review-form-own-checkbox {
+  background-color: #404BBF;
+  fill: #fafafa;
+}
+
+.review-form-checkbox:checked + .review-form-checkbox-label > .review-form-own-checkbox {
+  outline: 2px solid rgba(0, 0, 255, 0.5);
+}
+
 /* MODAL WINDOW */
